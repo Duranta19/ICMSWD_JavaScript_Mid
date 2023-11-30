@@ -1,5 +1,5 @@
 function rrr(rr,ro){
-    return (rr/ro)*6;
+    return (rr/ro*6)*6;
 }
 requiredRun = 124
 remaingOver = 14
