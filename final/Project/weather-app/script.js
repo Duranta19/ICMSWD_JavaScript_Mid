@@ -2,7 +2,7 @@ const btn = document.getElementById('submit');
 
 btn.addEventListener('click', () => {
     const location = document.getElementById('location').value;
-    const api_key = 'a7e7f20227bf0f75acbd00bb0e4584d7';
+    const api_key = '';
 
     console.log(location);
 
