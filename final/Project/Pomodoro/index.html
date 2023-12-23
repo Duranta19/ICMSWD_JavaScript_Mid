@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Pomodoro Timer</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Add your custom styles here */
+        .timer-display {
+            font-size: 4em;
+        }
+
+        .controls {
+            margin-top: 20px;
+        }
+
+        /* You can add more styles as needed */
+    </style>
+
+</head>
+
+<body>
+    <div class="container text-center mt-5">
+        <h1>Pomodoro Timer</h1>
+        <div class="timer-display mt-4">
+            <p id="timer">25:00</p>
+        </div>
+        <div class="controls mt-4">
+            <button id="startBtn" class="btn btn-primary">Start</button>
+            <button id="resetBtn" class="btn btn-danger">Reset</button>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS and jQuery (required for Bootstrap) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Pomodoro Timer script -->
+    <script src="script.js"></script>
+</body>
+
+</html>
